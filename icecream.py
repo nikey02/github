@@ -601,11 +601,11 @@ lblTotalCost.grid(row=4,column=0, sticky=W)
 txtTotalCost= Entry(f2ab,font=('arial',16,'bold'),bd=8,justify='left', textvariable= TotalCost)
 txtTotalCost.grid(row=4,column=1,sticky=W)
 
-#==========================================fb2============================================================================
-lblReceipt = Label(ft2,font=('arial',12,'bold'), text="Receipt", bd=2,anchor='w')
-lblReceipt.grid(row=0,column=0,sticky=W)
-txtReceipt = Text(ft2, width=59,height=22,bg="white",bd=8,font=('arial',11,'bold'))
-txtReceipt.grid(row=1,column=0)                      
+# #==========================================fb2============================================================================
+# lblReceipt = Label(ft2,font=('arial',12,'bold'), text="Receipt", bd=2,anchor='w')
+# lblReceipt.grid(row=0,column=0,sticky=W)
+# txtReceipt = Text(ft2, width=59,height=22,bg="white",bd=8,font=('arial',11,'bold'))
+# txtReceipt.grid(row=1,column=0)                      
 #===============================Button=========================================================================================================
 btnTotal=Button(fb2,padx=16,pady=1,bd=4,fg='black',font=('arial',16,'bold'),width=5,text="Total",command=CostofItem).grid(row=0,column=0)
 btnReceipt=Button(fb2,padx=16,pady=1,bd=4,fg='black',font=('arial',16,'bold'),width=5,text="Receipt",command=Receipt).grid(row=0,column=1)
